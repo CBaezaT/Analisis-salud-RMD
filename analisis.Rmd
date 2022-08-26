@@ -1,0 +1,93 @@
+---
+title: "R Analisis salud Rancagua, Machalí y Doñihue"
+output: html_notebook
+---
+
+```{r}
+opts_chunk$set(
+  echo = FALSE
+)
+```
+
+```{r}
+
+fig_2016
+fig_2017
+fig_2018
+fig_2019
+fig_2020
+fig_2021
+fig_2022
+```
+
+```{r, echo=FALSE}
+rmd_edad_16
+rmd_edad_17
+rmd_edad_18
+rmd_edad_19
+rmd_edad_20
+rmd_edad_21
+rmd_edad_22
+
+```
+
+## Causas de mortalidad generales más comunes en 2016
+
+```{r, echo=FALSE}
+kable(head(frec_R_2016), caption ="Frec Rancagua 2016") 
+kable(head(frec_M_2016), caption ="Frec Machalí  2016") 
+kable(head(frec_D_2016), caption ="Frec Doñihue  2016") 
+```
+
+## Causas de mortalidad generales más comunes en 2017
+
+```{r, echo=FALSE}
+kable(head(frec_R_2017), caption ="Frec Rancagua 2017") 
+kable(head(frec_M_2017), caption ="Frec Machalí  2017") 
+kable(head(frec_D_2017), caption ="Frec Doñihue  2017") 
+
+```
+
+## Causas de mortalidad generales más comunes en 2018
+
+```{r, echo=FALSE}
+kable(head(frec_R_2018), caption ="Frec Rancagua 2018") 
+kable(head(frec_M_2018), caption ="Frec Machalí  2018") 
+kable(head(frec_D_2018), caption ="Frec Doñihue  2018") 
+
+```
+
+## Causas de mortalidad generales más comunes en 2019
+
+```{r, echo=FALSE}
+kable(head(frec_R_2019), caption ="Frec Rancagua 2019") 
+kable(head(frec_M_2019), caption ="Frec Machalí  2019") 
+kable(head(frec_D_2019), caption ="Frec Doñihue  2019") 
+```
+
+## Causas de mortalidad generales más comunes en 2020
+
+```{r, echo=FALSE}
+kable(head(frec_R_2020), caption ="Frec Rancagua 2020") 
+kable(head(frec_M_2020), caption ="Frec Machalí  2020") 
+kable(head(frec_D_2020), caption ="Frec Doñihue  2020") 
+
+```
+
+## Causas de mortalidad generales más comunes en 2021
+
+```{r, echo=FALSE}
+kable(head(frec_R_2021), caption ="Frec Rancagua 2021") 
+kable(head(frec_M_2021), caption ="Frec Machalí  2021") 
+kable(head(frec_D_2021), caption ="Frec Doñihue  2021") 
+
+```
+
+## Causas de mortalidad generales más comunes en 2022
+
+```{r, echo=FALSE}
+kable(head(frec_R_2022), caption ="Frec Rancagua 2022") 
+kable(head(frec_M_2022), caption ="Frec Machalí 2022") 
+kable(head(frec_D_2022), caption ="Frec Doñihue 2022") 
+
+```
