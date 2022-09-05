@@ -74,3 +74,18 @@ rmd_sexo_22
 # ahora tipos de cancer
 
 
+view(r_m_d)
+glimpse(r_m_d$glos_CIE10)
+
+rmd_t <- r_m_d %>% filter(glos_CIE10 == "Tumores [Neoplasias]")
+rmd_t
+glimpse(rmd_t)
+frec_diag1_rmd <- rmd_t %>%  count(GLOSA_CATEGORIA_DIAG1) %>% as_tibble() %>% arrange(desc(n))
+
+frec_Gdiag1_rmd <- rmd_t %>%  count(GLOSA_GRUPO_DIAG1) %>% as_tibble() %>% arrange(desc(n))
+
+frec_Subcatd1_rmd <- rmd_t %>%  count(GLOSA_SUBCATEGORIA_DIAG1) %>% as_tibble() %>% arrange(desc(n))
+
+view(frec_diag1_rmd)
+view(frec_Gdiag1_rmd)
+view(frec_Subcatd1_rmd)
